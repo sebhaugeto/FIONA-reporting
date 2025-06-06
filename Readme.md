@@ -24,7 +24,7 @@ Let me introduce the first open source FIONA documentation repo in GitHub 🙌 H
 
 #Technologies
 
-This project is built with: frustration with terrible technical and overall communication clarity in the existing FINOA documentation. 
+This project is built with 100% frustration with terrible technical and overall communication clarity in the existing FINOA documentation and legacy financial systems. 
 
 #Contributions
 
