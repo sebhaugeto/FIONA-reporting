@@ -1,4 +1,4 @@
-#The annual FINOA report requires us to report certain numbers to the regulator every year. These are the numbers we can only get from the backend. 
+#The annual FINOA report requires every financial company in denmark to report certain numbers to the regulator every year. These are the numbers that most companies can only get from the backend. 
 
 #Generate a table with the following numbers: 
 AforD = The number of customers with a danish entity address on the reporting date
