@@ -7,10 +7,10 @@ The idea is good, but the current documentation of the actual reporting process 
 #The solution
 Let me introduce the first open source FIONA documentation repo in GitHub 🙌 Here you can find: 
 1. An example of what a successful FINOA report in .XML format looks like
-2. A dictionary that explains what all the tags and values means in the .XML file from point 2. 
-3. A backend export checklist that can be used to export all numbers from your data warehouse that cannot be easily found manually.
+2. A dictionary that explains what all the tags and values means in the .XML file from point 1. 
+3. A backend export checklist that can be used to export all numbers from your data warehouse that cannot be easily found manually, that the .XML file requires
 
-Tutorial to achieve a successful FIONA report:
+#Step by step tutorial:
 1. Read the official document called "Teknisk anvisning" to understand the basics.
 2. Copy the XML file to your local directory.
 3. Export all numbers from your data warehouse using the backend export checklist.
