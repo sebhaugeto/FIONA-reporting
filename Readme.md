@@ -1,4 +1,5 @@
 #Intro 
+
 The danish FSA and the national bank recently introduced FINOA, a new system for financial institutions to report their activities to the authorities.
 
 #The problem
