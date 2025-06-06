@@ -3,9 +3,11 @@
 The danish FSA and the national bank recently introduced FINOA, a new system for financial institutions to report their activities to the authorities.
 
 #The problem
+
 The idea is good, but the current documentation of the actual reporting process lacks proper clarity and is 10x more complex than it could be. 
 
 #The solution
+
 Let me introduce the first open source FIONA documentation repo in GitHub 🙌 Here you can find: 
 1. An example of what a successful FINOA report in .XML format looks like
 2. A dictionary that explains what all the tags and values means in the .XML file from point 1. 
@@ -21,10 +23,13 @@ Let me introduce the first open source FIONA documentation repo in GitHub 🙌 H
 7. Celebrate 🎉
 
 #Technologies
+
 This project is built with: frustration with terrible technical and overall communication clarity in the existing FINOA documentation. 
 
 #Contributions
+
 Contributions are welcome! Please feel free to submit a PR or open an issue. 
 
 #License
-Open source, let's learn together!
+
+Open source, let's learn together ❤️
