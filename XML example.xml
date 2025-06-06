@@ -1,0 +1,94 @@
+<AMLCTF language="english" submissionType="normal" version="6">
+    <script src="chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js"/>
+    <masterdata idno="99" refperio="202444" indsamlingstype="AMLCTF">
+    <kontaktpersoner>
+        <person fuldtnavn="Helle Illum Thor" tlf="12345678" email="het@ftnet.dk"/>
+    </kontaktpersoner>
+    </masterdata>
+    <Metadata>
+        <Metadata>
+            <data Currency="DKK"/>
+        </Metadata>
+    </Metadata>
+    <Anve>
+        <HOmr>
+            <data Penge="Ja" Real="Nej" Fms="Ja" LivTv="Nej" SpaV="Ja" ELBet="Nej" FmLi="Ja" Moi="Nej" UdL="Ja" Forb="Nej" UdReaL="Ja" FaDi="Nej" HkrF="Ja" FiLe="Nej" ABet="Ja" SiGa="Nej" Pengi="Ja" Valu="Nej" FiFuOp="Ja" VaRen="Nej" Vpap="Ja" UVfi="Nej" inFoK="Ja" Ucits="Nej" Oper="Ja" AktDr="Nej" Veks="Ja" VekVF="Nej" VirT="Ja" VirV="Nej" InvR="Ja" Bilag="Ja"/>
+        </HOmr>
+    </Anve>
+    <AMCF>
+        <Skal>
+            <data Skala="5"/>
+        </Skal>
+        <AforD>
+            <data Antal="6"/>
+        </AforD>
+        <OmsR>
+            <data Bel="1234"/>
+        </OmsR>
+        <AEtab>
+            <data Antal="7"/>
+        </AEtab>
+        <Aenk>
+            <data Antal="8"/>
+        </Aenk>
+        <AEhoj>
+            <data Antal="9"/>
+        </AEhoj>
+        <AForp>
+            <data Antal="10" ikRe="n./a."/>
+        </AForp>
+        <AOpR>
+            <data Antal="11"/>
+        </AOpR>
+        <AOpF>
+            <data Antal="12"/>
+        </AOpF>
+        <ATre>
+            <data Antal="13"/>
+        </ATre>
+        <AVHoj>
+            <data Antal="14"/>
+        </AVHoj>
+        <AKunR>
+            <data Antal="15"/>
+        </AKunR>
+        <Atran>
+            <data Antal="16"/>
+        </Atran>
+        <BMod>
+            <data Bel="1234"/>
+        </BMod>
+        <Aunde>
+            <data Antal="17"/>
+        </Aunde>
+        <AKund>
+            <data Antal="18"/>
+        </AKund>
+        <AForre>
+            <data Antal="19"/>
+        </AForre>
+        <AkunA>
+            <data Antal="20"/>
+        </AkunA>
+        <AWhi>
+            <data Antal="21" ikRe="n./a."/>
+        </AWhi>
+    </AMCF>
+    <Prod>
+        <Psor>
+            <data Produ="Asset backed credit / secured loans"/>
+            <data Produ="Øvrige" oevr="kfmo43095g oktlmfølæer"/>
+            <data Produ="Crowdfunding/crowdlending"/>
+            <data Produ="Udstedelse og administration af andre betalingsmidler"/>
+            <data Produ="Handelskreditter"/>
+            <data Produ="Øvrige" oevr="urwnv 0rvm ælkæf"/>
+        </Psor>
+    </Prod>
+    <Uenh>
+        <UdEn>
+            <data Land="CU" AKunU="22" AKunP="25" AKorr="28" ATraFD="31" VolFD="1234" ATraTD="34" VolTD="1234"/>
+            <data Land="GA" AKunU="23" AKunP="26" AKorr="29" ATraFD="32" VolFD="1234" ATraTD="35" VolTD="1234"/>
+            <data Land="HN" AKunU="24" AKunP="27" AKorr="30" ATraFD="33" VolFD="1234" ATraTD="36" VolTD="1234"/>
+        </UdEn>
+    </Uenh>
+</AMLCTF>

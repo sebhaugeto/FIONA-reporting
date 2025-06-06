@@ -1,0 +1,28 @@
+#The annual FINOA report requires us to report certain numbers to the regulator every year. These are the numbers we can only get from the backend. 
+
+#Generate a table with the following numbers: 
+AforD = The number of customers with a danish entity address on the reporting date
+OmsR = The total gross revenue in the reporting period
+AEtab = The total number of customers on the reporting date
+Aenk = The number of customers that have had at least one succesful withdrawal in the reporting period
+AEhoj = The number of customers that are classified as a high-risk business (all companies with a 1% withdrawal fee)
+AForp = The number of new customers added in the reporting period
+AOpR = The number of new customers added in the reporting period without a physical meeting 
+ATre = The number of new customers added in the reporting period via a third party
+AVHoj = The number of customers that are classified as a high-risk business (all companies with a 1% withdrawal fee)
+Atran = The total number of withdrawals in the reporting period
+AForre = The number of customers that have had their Dealflow account closed manually in the reporting period
+#The reporting period is a full calendar year, starting with 2024. 
+
+#Generate a table with the following data and numbers for each country we have a customer in:
+Land = ISO-3166-alpha-2 code (DK, DE …)
+AKunU = Number of customers with an entity address in the country 
+AKunP = Number of customers where an UBO is registered as a PEP
+AKorr = Number of partner banks in the country (connected through AirWallex)
+ATraFD = Number of withdrawals from Denmark to the country 
+VolFD = The total amount of withdrawals in DKK from Denmark to the country 
+ATraTD = The number of payins from the country to Denmark 
+VolTD = The total amount of payins in DKK from the country to Denmark
+#A customer is defined as a customer in the country if their man business address is in the country. 
+
+#The rest of the numbers are usually obtainable through manual checks. 

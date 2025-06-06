@@ -1,0 +1,171 @@
+<HOmr>
+    <data
+    Penge=Pengeinstitut (deposit-taking bank)	
+    Real=Realkreditinstitut (non-deposit-taking bank)
+    Fms=Fondsmæglerselskab / investeringsfirma (asset management company)
+    LivTv=Livsforsikringsselskab og tværgående pensionskasse (life insurance company)
+    SpaV=Sparevirksomhed (savings company)
+    ELBet=E-penge-udsteder / betalingstjenesteudbyder (Bilag 1, nr. 1-7 i Lov om betalinger)
+    FmLi=Operationel leasing (leasing hvor kreditrisikoen bæres af kunden)	
+    Moi=Money remittance / pengeoverførselsvirksomhed (typisk MTO’er)
+    UdL=Udlån uden sikkerhed (forbrugslåns-virksomheder m.fl.)
+    Forb=Forbrugerkreditformidler	
+    UdReaL=Andre långivere mod pant i fast ejendom (ikke‐realkredit)	
+    FaDi=Factoring- og forfaiteringsselskaber	
+    HkrF=Hævekort-/kreditkort-erhververe (card acquirers)	
+    FiLe=Finansiel leasing (leasing hvor kreditrisikoen bæres af kunden)	
+    ABet=Andre betalingstjenester (AIS-m.fl.)	
+    SiGa=Sikkerhedsgarant / bankgarantilignende ydelser	
+    Pengi=Pengeoverførselstjeneste (PISP)	
+    Valu=Valutavekslingsvirksomhed	
+    FiFuOp=Finansiel fuldmagts-/open-banking-operatør	
+    VaRen=Værdipapir-register (CSD)	
+    Vpap=Handel med og emission af værdipapirer	
+    UVfi=Uafhængig investeringsrådgiver	
+    inFoK=Informations-/kundekontakt-formidler (lead generators)	
+    Ucits=Kapitalforvalter af danske UCITS	
+    Oper=Auktions-platform for EU ETS (reguleret marked)
+    AktDr=Auktionsdeltager (direkte budgiver på CO₂-auktioner)	
+    Veks=Veksling mellem virtuel valuta og fiat	
+    VekVF=Vekselkontor for virtuel-til-virtuel (crypto–crypto)	
+    VirT=Veksling og wallet-udbyder for virtuel valuta	
+    VirV=Virtuel tegnebog (wallet-udbyder)	
+    InvR=Investeringsrådgiver (ikke-uafh.)	
+    Bilag=„Bilag 2/3 produkter“ – alle andre produkter der kræver særskilt risikomarkering	
+    />  
+</HOmr>
+
+<AMCF>
+    <Skal>
+        <data Skala="5"/> =Virksomhedens vurdering af dens iboende risiko for at blive misbrugt til hvidvask eller
+terrorfinansiering på en skala fra 1 til 10
+    </Skal>
+    <AforD>
+        <data Antal="6"/> =Forretningssteder i DK pr. referencedato
+    </AforD>
+    <OmsR>
+        <data Bel="1234"/> =Omsætning i referenceperioden, tusind DKK
+    </OmsR>
+    <AEtab>
+        <data Antal="7"/> =Antal etablerede forretningsforbindelser på referencedatoen
+    </AEtab>
+    <Aenk>
+        <data Antal="8"/> =Antal kunder, som virksomheden har udført enkeltstående transaktioner for i referenceperioden
+    </Aenk>
+    <AEhoj>
+        <data Antal="9"/> =Antal erhvervskunder på referencedatoen, der er knyttet til brancher, som den indberet-
+ningspligtige har klassificeret som højrisikobrancher
+    </AEhoj>
+    <AForp>
+        <data Antal="10" ikRe="n./a."/> =Kundeforhold med formuepleje (”n./a.” hvis irrelevant)
+    </AForp>
+    <AOpR>
+        <data Antal="11"/> =Antal kundeforhold, der er oprettet i referenceperioden
+    </AOpR>
+    <AOpF>
+        <data Antal="12"/> =Antal kundefor0hold, der er oprettet i referenceperioden uden kundens fysiske fremmøde
+    </AOpF>
+    <ATre>
+        <data Antal="13"/> =Antal kundeforhold, der er etableret i referenceperioden via tredjepart
+    </ATre>
+    <AVHoj>
+        <data Antal="14"/> =Antal kundeforhold i referenceperioden, hvor den indberetningspligtige har kategorise-
+ret kunden som højrisikokunde
+    </AVHoj>
+    <AKunR>
+        <data Antal="15"/> =Antal korrespondentbankforbindelser på referencedatoen opgjort for hver enkelt juris-
+diktion
+    </AKunR>
+    <Atran>
+        <data Antal="16"/> =Antal kundetransaktioner i referenceperioden
+    </Atran>
+    <BMod>
+        <data Bel="1234"/> =Samlet kontant-beløb modtaget, 1 000 DKK
+    </BMod>
+    <Aunde>
+        <data Antal="17"/> =Antal underretninger til Hvidvasksekretariatet i referenceperioden
+    </Aunde>
+    <AKund>
+        <data Antal="18"/> =Antal kundeforhold i referenceperioden, som er knyttet til tidligere underretninger til
+Hvidvasksekretariatet
+    </AKund>
+    <AForre>
+        <data Antal="19"/> =Antal forretningsforbindelser, der er blevet lukket i referenceperioden på baggrund af
+mistanke om hvidvask eller terrorfinansiering
+    </AForre>
+    <AkunA>
+        <data Antal="20"/> =Antal kunder, der inden kundeforhold blev etableret, blev afvist i referenceperioden på
+grund af risiko for hvidvask eller terrorfinansiering
+    </AkunA>
+    <AWhi>
+        <data Antal="21" ikRe="n./a."/> =Antal interne whistleblowermeddelelser i referenceperioden, der drejer sig om hvidvask
+eller terrorfinansiering
+    </AWhi>
+</AMCF>
+
+<Prod>
+    <Psor>
+        <data 
+        Produ=choose from the following list (taken from the product_overview.txt file):
+        "Modtagelse af kontanter, f.eks. ved indbetaling eller ved pengeoverførsel"
+        "Indlån"
+        "Valutaveksling"
+        "Pengeoverførsel"
+        "Pengeformidling (Money broking)"
+        "Udstedelse og administration af andre betalingsmidler (kreditkort, rejsechecks etc.)"
+        "Betalingstjenester"
+        "Udlån til erhverv"
+        "Forbrugerkredit"
+        "Factoring og diskontering"
+        "Livsforsikring"
+        "Opbevaring og forvaltning af værdipapirer"
+        "Boksudlejning"
+        "Handelsfinansiering (trade finance)"
+        "Handelskreditter (inkl. forfaitering)"
+        "Finansiel leasing"
+        "Realkreditlån"
+        "Asset backed credit / secured loans"
+        "Private banking / wealth management"
+        "Værdipapirhandel"
+        "Derivathandel"
+        "Institutional investment banking"
+        "Transition management"
+        "Investeringer i ædelmetaller"
+        "Alternative investeringer"
+        "Crowdfunding/crowdlending"
+        "Crowdinvestment"
+        "Udstedelse af elektroniske penge"
+        "Opbevaring af virtuelle valutaer"
+        "Veksling af virtuelle valutaer"
+        "Tilbud af virtuelle tegnebøger"
+        "Formidling af livsforsikringer"
+        "Forvaltning af investeringsfonde"
+        />
+    </Psor>
+</Prod>
+
+<Uenh>
+    <UdEn>
+        <data
+        Original_description_from_FSA_document= Antal kundeforhold knyttet til udlandet, opgjort for hver enkelt jurisdiktion, i reference-
+perioden, Antal kundetransaktioner i referenceperioden fra Danmark til andre jurisdiktioner, op-
+gjort for hver enkelt jurisdiktion, Volumen af kundetransaktioner i referenceperioden (i tusind kr.) fra Danmark til andre
+jurisdiktioner, opgjort for hver enkelt jurisdiktion, Antal kundetransaktioner i referenceperioden til Danmark fra andre jurisdiktioner, op-
+gjort for hver enkelt jurisdiktion, Volumen af kundetransaktioner i referenceperioden (i tusind kr.) til Danmark fra andre
+jurisdiktioner, opgjort for hver enkelt jurisdiktion, Antal kundeforhold i referenceperioden tilknyttet en politisk eksponeret person, en
+nærtstående til en politisk eksponeret person eller en nær samarbejdspartner til en po-
+litisk eksponeret person, opgjort for hver enkelt jurisdiktion/>
+
+        <final data format: 
+        Land="CU"=ISO-3166-alpha-2 code (DK, DE …)
+        AKunU="22"=Kundeforhold med tilknytning til landet
+        AKunP="25"=Kundeforhold hvor kunden (eller reelle ejer) er PEP mv.
+        AKorr="28"=Korrespondentbankforbindelser i landet
+        ATraFD="31"=Antal transaktioner Fra DK til landet
+        VolFD="1234"=Volumen af disse, tusind DKK
+        ATraTD="34"=Antal transaktioner Til DK fra landet
+        VolTD="1234"=Volumen af disse, tusind DKK
+        />
+        
+    </UdEn>
+</Uenh>
